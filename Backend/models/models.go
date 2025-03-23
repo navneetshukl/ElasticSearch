@@ -6,3 +6,5 @@ type User struct {
 	Email string `json:"email"`
 	Phone int64  `json:"phone"`
 }
+
+type ElasticSrvUseCase interface{}
